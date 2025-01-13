@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="toggle">
+            <button id="inicioBtn" class="activo">INICIO DE SESIÓN</button>
+            <button id="registroBtn">REGISTRARSE</button>
+        </div>
+        <div class="formulario-contenedor">
+            <div class="formulario-caja">
+                <!-- Formulario de Inicio de Sesión -->
+                <form id="formularioInicio" class="formulario activo">
+                    <h2>INICIO DE SESIÓN</h2>
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <input type="password" placeholder="Tu contraseña" required>
+                    <button type="submit">ENVIAR</button>
+                    <a href="#" class="olvide">¿Olvidaste tu contraseña?</a>
+                </form>
+
+                <!-- Formulario de Registro -->
+                <form id="formularioRegistro" class="formulario">
+                    <h2>REGISTRARSE</h2>
+                    <input type="text" placeholder="Tu nombre" required>
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <input type="password" placeholder="Tu contraseña" required>
+                    <button type="submit">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
